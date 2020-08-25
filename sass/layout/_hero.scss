@@ -1,0 +1,46 @@
+.hero-section {
+  position: relative;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url(../images/Hero-img.jpg);
+  max-width: 1600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-header {
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $title-dark-background-color;
+}
+
+.hero-modal-btn {
+  width: 200px;
+  height: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: block;
+  text-align: center;
+  color: $text-dark-background-color;
+  background-color: $accent-color;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: 250s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
