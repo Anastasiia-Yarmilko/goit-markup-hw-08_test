@@ -117,14 +117,6 @@
   &:nth-child(3n) {
     margin-right: 0px;
   }
-
-  &:nth-last-child(-n + 3) {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-    color: $title-light-background-color;
-  }
 }
 
 .portfolio-item-description {
